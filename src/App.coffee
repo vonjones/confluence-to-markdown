@@ -11,9 +11,10 @@ class App
   @outputTypesRemove = [
   ]
 
-  @extraOptions = [
-    '--markdown-headings=atx' # Setext-style headers (underlined) | ATX-style headers (prefixed with hashes)
-  ]
+    @extraOptions = [
+      '--markdown-headings=atx', # Setext-style headers (underlined) | ATX-style headers (prefixed with hashes)
+      '--wrap=none'
+    ]
 
   ###*
   # @param {fs} _fs Required lib
